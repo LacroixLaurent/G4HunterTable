@@ -6,7 +6,7 @@ source('./scoreG4hunt.R')
 ui =fluidPage(
   headerPanel("G4HunterScore for a list of sequences"),
   p('by L. Lacroix, laurent.lacroix@inserm.fr'),
-  hr(),
+  helpText(a("Click Here to open the README",href="README.html",target="_blank")),
   wellPanel(style="background-color:pink;",
     fluidRow(
     	column(4,fileInput('file1', 'Choose a TEXT or a FASTA File',
