@@ -2,7 +2,7 @@
 #### Shiny App related to G4Hunter published in [Bedrat _et al._ NAR 2016][paper ref].
 Supplementary Data can be downloaded from [here](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770238/bin/supp_44_4_1746__index.html).
 
-This app reads a list of sequences in a **text or fasta format** and computes the G4Hunter score for each sequence as in the [G4Hunter paper][paper ref] as well as the length of each sequence.
+This app reads a list of sequences in a **text or (multi)fasta format** and computes the G4Hunter score for each sequence as in the [G4Hunter paper][paper ref] as well as the length of each sequence.
 
 For file in the **text format**, each line should contains only one sequence in the **DNA or RNA** alphabet.  
 If the first line contains information other than sequence, it can be removed by checking the corresponding box.  
