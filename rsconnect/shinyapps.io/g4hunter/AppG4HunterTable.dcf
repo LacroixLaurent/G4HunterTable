@@ -1,9 +1,10 @@
 name: AppG4HunterTable
+title:
 account: g4hunter
 server: shinyapps.io
 appId: 87973
-bundleId: 591664
+bundleId: 771734
 url: https://g4hunter.shinyapps.io/AppG4HunterTable/
-when: 1476957023.69391
+when: 1490957457.77633
 asMultiple: FALSE
 asStatic: FALSE
