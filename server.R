@@ -13,7 +13,7 @@ server = (function(input, output) {
 		if (input$type=='fasta')
 		{dataseq <- readDNAStringSet(inFile$datapath,'fasta')
 		datatxt <- as.data.frame(dataseq)}
-		names(datatxt)='sequence'
+		names(datatxt)='Sequence'
 		G4Hscore <- apply(datatxt,1,scoreG4hunt)
 		length <- apply(datatxt,1,function(x) length(strsplit(as.character(x),NULL)[[1]]))
 		res <- cbind(datatxt,G4Hscore,length)
