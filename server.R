@@ -4,7 +4,12 @@ source('./scoreG4hunt.R')
 
 
 server = (function(input, output) {
-  dataInput <- reactive({
+	showModal(modalDialog(
+		title = "G4Hunter score for a list of sequences",
+		"This tiny app calculates the G4Hunter score of a list nucleic acid sequence",
+		easyClose = TRUE
+	))
+	dataInput <- reactive({
 		inFile <- input$file1
 		if (is.null(inFile))
 			return(NULL)
