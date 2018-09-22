@@ -6,7 +6,15 @@ Supplementary Data can be downloaded from [NCBI](http://www.ncbi.nlm.nih.gov/pmc
 * Biostrings
 * shiny
 
+##### To run the app
+1- download the project from github.  
+2- set the directory where you extract the project as your working directory in R by using the command **setwd('PATH_TO_THE_PROJECT')**.  
+3- install the required packages by running the **install-packages.r** script.  
+4- in the R-console, type **runApp()**.  
+5- a browser pages should open with the app.  
+6- for the next time you want to run the app, you can just go your R-console and type **shiny::runApp('PATH_TO_THE_PROJECT')**. Thus if you have installed this app in a directory named work under your home directory, you should type **shiny::runApp('~/work/G4HunterTable/')**.  
 
+##### Tu use the app
 This app reads a list of sequences in a **text or (multi)fasta format** and computes the G4Hunter score for each sequence as in the [G4Hunter paper][paper ref] as well as the length of each sequence.
 
 For file in the **text format**, each line should contains only one sequence in the **DNA or RNA** alphabet.  
