@@ -6,6 +6,7 @@ source('./scoreG4hunt.R')
 ui =fluidPage(
   headerPanel("G4HunterTable"),
   p('by L. Lacroix, laurent.lacroix@inserm.fr'),
+  p(tagList('published in',a("Bioinformatics 2018", href="https://doi.org/10.1093/bioinformatics/bty951",target="_blank"))),
   helpText(a("Click Here to open the README",href="README.html",target="_blank")),
   wellPanel(style="background-color:pink;",
     fluidRow(
